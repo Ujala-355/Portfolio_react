@@ -16,7 +16,7 @@ const Document = styled.img`
 const Description = styled.div`
     width: 100%;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     color: ${({ theme }) => theme.text_primary + 99};
     margin-bottom: 10px;
     @media only screen and (max-width: 768px){
@@ -34,6 +34,7 @@ text-overflow: ellipsis;
 `
 
 const Card = styled.div`
+    background-color: ${({ theme }) => theme.card};
     width: 650px;
     border-radius: 10px;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
@@ -75,7 +76,6 @@ const Top = styled.div`
 
 const Image = styled.img`
     height: 50px;
-    // background-color: #000;
     border-radius: 10px;
     margin-top: 4px;
     @media only screen and (max-width: 768px){
@@ -132,14 +132,12 @@ const EducationCard = ({ education }) => {
     return (
         <Card>
             <Top>
-                {/* <Image src={education.img} /> */}
                 <Body>
                     <Name>{education.school}</Name>
                     <Degree>{education.degree}</Degree>
                     <Date>{education.date}</Date>
                 </Body>
             </Top>
-            {/* <Grade><b>Grade: </b>{education.grade}</Grade> */}
             <Description>
                 <Span>{education.desc}</Span>
             </Description>
