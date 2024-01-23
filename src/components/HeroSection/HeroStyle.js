@@ -15,7 +15,7 @@ export const HeroContainer = styled.div`
   }
   z-index: 1;
 
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+  // clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
 
 export const HeroBg = styled.div`
@@ -98,7 +98,7 @@ export const Img = styled.img`
   max-width: 400px;
   max-height: 400px;
   border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.primary};
+  // border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -178,7 +178,7 @@ export const ResumeButton = styled.a`
     border-radius: 10px;
     cursor: pointer;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     transition: all 0.2s ease-in-out !important;
     background: hsla(271, 100%, 50%, 1);
     &:hover {

@@ -12,7 +12,6 @@ const Document = styled.img`
         opacity: 0.8;
     }
 `
-
 const Description = styled.div`
     width: 100%;
     font-size: 15px;

@@ -7,10 +7,12 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 position: relative;
-z-index: 1;
+z-index: 0;
 align-items: center;
-`
+border:2px solid green;
 
+
+`
 const Wrapper = styled.div`
 position: relative;
 display: flex;

@@ -10,6 +10,7 @@ flex-direction: column;
 justify-content: center;
 position: relative;
 z-index: 1;
+border:2px solid yellow;
 align-items: center;
 @media (max-width: 960px) {
     padding: 0px;
@@ -119,12 +120,7 @@ const ContactButton = styled.input`
   font-size: 18px;
   font-weight: 600;
 `
-
-
-
 const Contact = () => {
-
-  //hooks
   const [open, setOpen] = React.useState(false);
   const form = useRef();
 
@@ -138,9 +134,6 @@ const Contact = () => {
         console.log(error.text);
       });
   }
-
-
-
   return (
     <Container>
       <Wrapper>

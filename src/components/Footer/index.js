@@ -4,10 +4,10 @@ import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
   width: 100%;
-  padding: 2rem 0;
   display: flex;
   justify-content: center;
-  background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
+  background:black;
+  border:2px solid pink;
 `;
 
 const FooterWrapper = styled.footer`
@@ -18,6 +18,7 @@ const FooterWrapper = styled.footer`
   gap: 14px;
   align-items: center;
   padding: 1rem;
+  border:2px solid red;
   color: ${({ theme }) => theme.text_primary};
 `;
 
