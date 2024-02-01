@@ -9,7 +9,6 @@ justify-content: center;
 position: relative;
 z-index: 0;
 align-items: center;
-border:2px solid green;
 
 
 `
