@@ -7,7 +7,6 @@ const FooterContainer = styled.div`
   display: flex;
   justify-content: center;
   background:black;
-  border:2px solid pink;
 `;
 
 const FooterWrapper = styled.footer`
@@ -18,7 +17,6 @@ const FooterWrapper = styled.footer`
   gap: 14px;
   align-items: center;
   padding: 1rem;
-  border:2px solid red;
   color: ${({ theme }) => theme.text_primary};
 `;
 

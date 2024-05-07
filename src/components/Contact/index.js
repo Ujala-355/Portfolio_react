@@ -10,7 +10,6 @@ flex-direction: column;
 justify-content: center;
 position: relative;
 z-index: 1;
-border:2px solid yellow;
 align-items: center;
 @media (max-width: 960px) {
     padding: 0px;

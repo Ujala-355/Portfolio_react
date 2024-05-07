@@ -5,7 +5,6 @@ export const Bio = {
       "I am Programmer",
     ],
     description:
-      // "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
       "A student at NavGurukul, I am a self-motivated person and an independent learner. I look forward to creating impactful applications, learning from a team of brilliant programmers and working on a cutting-edge technology environment.",
     github: "https://github.com/Ujala-355",
     resume:
@@ -84,7 +83,6 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
       school: "Navgurukul",
       date: "2021 - 2023",
       desc: "I am learn Coding in Navgrukul (Sarjappur)",
@@ -92,7 +90,6 @@ export const Bio = {
     },
     {
       id: 1,
-      // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
       school: "Chhatrapati Shahu Ji Maharaj University",
       date: "2019 -2022",
       desc: "I completed my degree Bachelor of Arts, kanpur, where I studied Science.",
@@ -100,7 +97,6 @@ export const Bio = {
     },
     {
       id: 2,
-      // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
       school: "B.P.M.G School, kanpur",
       date: "2016 - 2018",
       desc: "I completed my class 12 high school education at B.P.M.G School, kanpur, where I studied Science.",
@@ -108,7 +104,6 @@ export const Bio = {
     },
     {
       id: 3,
-      // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
       school: "S.P.I collage, Kanpur",
       date: "2016",
       desc: "I completed my class 10 education at S.P.I collage, Kanpur, where I studied Science",
@@ -141,8 +136,6 @@ export const Bio = {
       title: "Fetch Movie",
       description:
         "Using HTML, CSS, and JavaScript to fetch and display movie data using AJAX requests from the OM-DB API.",
-      // image:
-      //   "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
       tags: ["HTML","CSS","JavaScript","OM-DB API"],
       category: "web app",
       github: "https://github.com/Ujala-355/Fetch-movie",
@@ -152,8 +145,6 @@ export const Bio = {
       title: "Login-Signup",
       description:
         "Create login and registration form using HTML, CSS, and JavaScript.",
-      // image:
-      //   "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
       tags: ["HTML","CSS","JavaScript"],
       category: "web app",
       github: "https://github.com/Ujala-355/Loginsignup-js",
@@ -163,8 +154,6 @@ export const Bio = {
       title: "Movie List in React",
       description:
         "Application to showcase and manage movie data, with features like delete an existing movie, adding a new movie, vote-up and vote-down and sorting all the movies based on total votes.",
-      // image:
-      //   "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
       tags: ["Next.js","HTML","CSS","JavaScript"],
       category: "web app",
       github: "https://github.com/Ujala-355/Loginsignup-js",
